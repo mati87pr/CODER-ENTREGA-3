@@ -1,0 +1,25 @@
+
+
+#postventa {
+    margin-top: 80px;
+    padding: 20px;
+    background-image: url("../img/taller.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#postventa .section-heading {
+    font-size: 30px;
+}
+
+#postventa p.text-muted {
+    font-size: 18px;
+}
+
+.pv-container {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
